@@ -1,0 +1,17 @@
+{
+  "DWH_CONN": {
+    "user": "postgres",
+    "password": "postgres",
+    "host": "host.docker.internal",
+    "port": "5439",
+    "dbname": "dwh"
+  },
+  "TCC_SRC_CONN": {
+    "user": "postgres",
+    "password": "postgres",
+    "host": "host.docker.internal",
+    "port": "5438",
+    "dbname": "tcc"
+  }
+
+}

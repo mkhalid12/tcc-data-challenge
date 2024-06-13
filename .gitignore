@@ -1,0 +1,11 @@
+data-integration/data/github/*
+database/*
+!database/*.sql
+.idea
+venv
+notebook/*
+!notebook/*.ipynb
+aws-terraform/.terraform
+!aws-terraform/*.tf
+__pycache__
+.DS_Store

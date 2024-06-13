@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "data-integration"
+version = "0.1.0"
+description = "TCC data integration dwh"
+authors = ["Madiha Khalid <madiha.khalid12@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+polars = "^0.20.31"
+psycopg2-binary = "^2.9.9"
+pyarrow = "^16.1.0"
+pandas = "^2.2.2"
+sqlalchemy = "^2.0.30"
+adbc-driver-postgresql = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
